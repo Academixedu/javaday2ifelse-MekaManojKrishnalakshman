@@ -7,15 +7,15 @@ public class StudentGradeEvaluation {
         Scanner scanner = new Scanner(System.in);
 
         // Prompt the user to enter their name
-        System.out.println("Enter your name: ");
+        System.out.print("Enter your name: ");
         String name = scanner.nextLine();
-        System.out.println("Enter your age:");
+        System.out.print("Enter your age: ");
         int age=scanner.nextInt();
-        System.out.println("Enter your exam score:");
+        System.out.print("Enter your exam score: ");
         int score=scanner.nextInt();
-        System.out.println("Name :" + name);
-        System.out.println("Age :"  + age);
-        System.out.println("Score :"  + score);
+        System.out.println("Name: " + name);
+        System.out.println("Age: "  + age);
+        System.out.println("Score: "  + score);
 
 
 
